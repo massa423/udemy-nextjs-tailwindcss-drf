@@ -32,7 +32,8 @@ export async function getTaskData(id) {
   );
   const task = await res.json();
 
-  return {
-    task,
-  };
+  // return {
+  //   task,
+  // };
+  return task;
 }
